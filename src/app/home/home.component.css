@@ -1,0 +1,39 @@
+
+.hero{
+    position: absolute;
+    text-align: center;
+    margin-left: 300px;
+    top: 50%
+  }
+.background-image{
+    width: 100%;
+}
+.home img{
+  width: 78%;
+  height: 100vh;;
+  margin-left: 301px;
+  object-position: center;
+  object-fit: cover;
+}
+.homecontent{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+.homecontent h1{
+  font-family: "Raleway", sans-serif;
+  margin: 0 0 171px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #252426;
+}
+.homecontent h2{
+  font-family: "poppins", sans-serif;
+  margin: -143px 0px 180px 63px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #28283c;
+}

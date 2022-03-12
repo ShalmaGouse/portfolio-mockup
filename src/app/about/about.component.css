@@ -1,0 +1,49 @@
+.aboutcontent{
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+ h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+img{
+    display: inline-block;
+}
+.inline-block img{
+    height: 18px;
+    width: 17px;
+    margin-top: -2px;
+    margin-right: 16px;
+ }
+ .inline-block{
+    padding-bottom: 14px;
+}
+ .list{
+    list-style: none;
+    padding: 0;
+    width: 113%;
+    font-family: "Open Sans", sans-serif;
+}
+p{
+
+    display: inline;
+    white-space: nowrap;
+}
+
